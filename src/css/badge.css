@@ -1,0 +1,30 @@
+
+.xu-badge-round {
+    border-radius: 1.5em;
+}
+.xu-badge {
+    display: inline-block;
+    padding: 0.2em 1em;
+    font-size: 0.7em;
+    margin: 0 0.3em;
+}
+.xu-badge-success {
+    background-color: #35ae47;
+    color: #ffffff !important;
+}
+.xu-badge-primary {
+    background-color: #269af1;
+    color: #ffffff !important;
+}
+.xu-badge-danger {
+    background-color: #eb3b48;
+    color: #ffffff !important;
+}
+.xu-badge-warning {
+    background-color: #f48221;
+    color: #ffffff !important;
+}
+/* .xu-badge-info {
+    background-color: #24c79f;
+    color: #ffffff !important;
+} */

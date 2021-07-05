@@ -1,0 +1,45 @@
+
+.panel-select-wrapper {
+    position: absolute;
+    top:15px;
+    right: 20px;
+    font-size: 16px;
+}
+.panel-select-active {
+    background-color: #5473e8 !important;
+    color: #ffffff !important;
+}
+.real-time-panel-wrapper {
+    padding: 15px;
+    background-color: #778ca2;
+    /* height: 100%; */
+    box-sizing: border-box;
+    position: relative;
+    height: 720px;
+    border: 1px solid #3f454d;
+    /* border-radius: 5px; */
+    /* border: 2px solid black */
+}
+
+.panel-gray {
+    background-color: #cccccc !important;
+}
+.interval {
+    margin: 10px 0;
+    height: 0;
+}
+.h100 {
+    height: 100%;
+}
+.mb15 {
+    margin-bottom: 15px;
+}
+.ml15 {
+    margin-left: 15px;
+}
+.mr15 {
+    margin-right: 15px;
+}
+.float-right {
+    float: right;
+}

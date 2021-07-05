@@ -1,0 +1,71 @@
+
+.xu-table {
+    border-collapse: collapse;
+    /* font-size: 14px; */
+    width: 100%;
+    background-color: transparent;
+}
+.xu-table th {
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    color: #323333;
+    background-color: #edf0fa;
+    font-weight: bold;
+}
+.xu-table td {
+    border-bottom: 1px solid #e9ecef;
+    color: #111111;
+}
+
+.xu-table-sm th,
+.xu-table-sm td {
+    padding: 6px 0
+}
+.xu-table-normal th,
+.xu-table-normal td {
+    padding: 15px 0
+}
+.xu-table-lg th,
+.xu-table-lg td {
+    padding: 24px 0
+}
+
+.xu-table-start th,
+.xu-table-start td {
+    text-align: start;
+}
+.xu-table-center th,
+.xu-table-center td {
+    text-align: center;
+}
+.xu-table-end th,
+.xu-table-end td {
+    text-align: end;
+}
+
+.xu-table-hover tbody tr:hover {
+    background-color: #e7f5fd !important;
+    cursor: pointer;
+}
+
+.xu-table-strip tbody tr:nth-child(2n-1){
+    background-color: #f9fafb;
+}
+.xu-table-strip tbody tr:nth-child(2n){
+    background-color: #ffffff;
+}
+
+/* 没有边框 */
+.xu-table-no-border td {
+    border: 0;
+}
+
+/*5.6 表格头部颜色*/
+.xu-thead-light tr{
+    color: #41cac0;
+}
+
+
+
+
+

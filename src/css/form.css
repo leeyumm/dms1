@@ -1,0 +1,99 @@
+
+
+.xu-form-item {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.xu-form-item > span:first-child {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  margin-right: 15px;
+}
+
+.xu-form-item > input,
+.xu-form-item > textarea {
+  border: 1px solid rgb(59, 61, 73);
+  border-radius: 6px;
+  padding: 8px 10px;
+  vertical-align: middle;
+  width: 200px;
+  margin-right: 5px;
+}
+.xu-form-item > input[type='date']{
+  font:inherit;
+  cursor: pointer;
+}
+.xu-form-item > textarea{
+  font: inherit;
+}
+.xu-form-item > input:focus,
+.xu-form-item > textarea:focus,
+.xu-form-item > input:hover {
+  border-color: #3a9fd3;
+}
+.xu-form-item > textarea {
+  border: inherit;
+  vertical-align: middle;
+  height: 70px;
+}
+.xu-form-item > textarea:focus{
+  outline: 0;
+}
+.valid-hint{
+  color: rgb(248, 27, 27);
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+select:focus {
+    outline: 0;
+}
+
+
+button {
+    border: 0;
+}
+
+button,select {
+    cursor: pointer;
+}
+
+.xu-input {
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  font-size: 1em;
+  line-height: 1em;
+}
+.xu-input:focus {
+  border-color:#3a9fd3;
+}
+
+.xu-input-time {
+  padding: 5px 2px;
+}
+
+.xu-input-radio {
+  vertical-align: middle;
+  height: 1.5em;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.xu-input-textarea {
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+}
+.xu-input-textarea:focus {
+  border-color:#3a9fd3;
+}

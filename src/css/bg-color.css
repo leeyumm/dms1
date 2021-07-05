@@ -1,0 +1,22 @@
+
+.bg-black {
+  background-color: #171918 !important;
+}
+
+.bg-gray {
+  background-color: #f8f8f8 !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+.bg-active {
+  background-color: #24c79f !important;
+  color: #ffffff !important;
+}
+/* 点击指示色 */
+.bg-toggle {
+  background-color: #35ae47 !important;
+  color: #ffffff !important;
+}

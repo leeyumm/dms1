@@ -1,0 +1,56 @@
+
+.xu-box {
+    background-color: #ffffff;
+    /* border-radius: 5px; */
+    padding: 20px 15px;
+    position: relative;
+    /* box-shadow: 0 0 10px 5px rgba(44, 41, 41, 0.1); */
+}
+.xu-box-title {
+    font-size: 16px;
+    color: #5a5c69;
+    padding-bottom: 5px;
+    margin-top: -5px;
+    font-weight: bold;
+    /* border-bottom: 1px solid #303030; */
+}
+.xu-box-content {
+    position: relative;
+}
+.xu-box-foot {
+    padding-top: 5px;
+    border-top: 1px solid #303030;
+}
+
+.xu-add-scrollBar {
+    overflow: auto;
+    /* -ms-scrollbar-face-color: #3869aa;IE滚动部分的颜色
+    -ms-scrollbar-track-color: #bbbbbb;IE滚动槽部分的颜色 */
+}
+
+/*webkit样式*/
+.xu-add-scrollBar::-webkit-scrollbar {/*滚动槽部分的样式*/
+    width: 4px;
+    border-radius: 1px;
+    background-color: transparent;
+}
+
+.xu-add-scrollBar::-webkit-scrollbar-thumb{/*滚动部分的样式*/
+    background-color: #cccccc;
+    border-radius: 2px;
+}
+.xu-add-scrollBar::-webkit-scrollbar-thumb:hover {
+    background-color: #999999;
+}
+
+.xu-float-left {
+    float: left;
+}
+.xu-float-right {
+    float: right;
+}
+.xu-clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
