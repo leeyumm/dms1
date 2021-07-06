@@ -12,7 +12,7 @@ const API = {
     method: 'get',
     url:'/info-device-data-collection/system-total-data-collection-number'
   },
-  //2.获取历史采集场次信息
+  //2.获取历史采集场次信息 test git
   getOpeHistoryCases:{
     method:'get',
     url:'/device-manage/history-total-collection-counter-of-one-day'
